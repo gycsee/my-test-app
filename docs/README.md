@@ -442,19 +442,7 @@ const Link = ({ page, children }) => {
 
 `__tests__/Link.js`
 
-```js- [单元测试说明](#单元测试说明)
-  - [测试框架 Jest](#测试框架-jest)
-  - [使用](#使用)
-  - [测试文件](#测试文件)
-  - [Demo](#demo)
-    - [测试简单函数](#测试简单函数)
-    - [测试简单组件](#测试简单组件)
-    - [测试懒加载组件](#测试懒加载组件)
-    - [测试路由组件](#测试路由组件)
-    - [测试 Rudux](#测试-rudux)
-    - [测试 Hooks](#测试-hooks)
-  - [Snapshot Testing](#snapshot-testing)
-  - [生成测试覆盖率报告](#生成测试覆盖率报告)
+```js
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Link from '../Link';
